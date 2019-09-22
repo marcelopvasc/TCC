@@ -12,90 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/support/Web.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlocksCoursePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,11 +38,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/support/Web.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BlocksCoursePageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BlocksCoursePageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java" />
       </list>
     </option>
   </component>
@@ -130,11 +53,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="801" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="49" />
+    <option name="y" value="183" />
+    <option name="width" value="969" />
+    <option name="height" value="547" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,6 +82,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ui_automated_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_automated_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_automated_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_automated_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_automated_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_automated_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,7 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569104212712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569189581834" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,8 +128,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageTests">
-    <configuration name="MainPageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.tests in ui_automated_tests">
+    <configuration name="APICoursePageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui_automated_tests" />
       <extension name="coverage">
         <pattern>
@@ -192,13 +138,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MainPageTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APICoursePageTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.testOPenAPIDocs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="APICoursePageTests.testInvalidSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ui_automated_tests" />
       <extension name="coverage">
         <pattern>
@@ -207,17 +153,66 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MainPageTests" />
-      <option name="METHOD_NAME" value="testOPenAPIDocs" />
+      <option name="MAIN_CLASS_NAME" value="tests.APICoursePageTests" />
+      <option name="METHOD_NAME" value="testInvalidSign" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APICoursePageTests.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui_automated_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APICoursePageTests" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APICoursePageTests.testSignOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui_automated_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APICoursePageTests" />
+      <option name="METHOD_NAME" value="testSignOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests in ui_automated_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui_automated_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPageTests" />
-        <item itemvalue="JUnit.MainPageTests.testOPenAPIDocs" />
+        <item itemvalue="JUnit.tests in ui_automated_tests" />
+        <item itemvalue="JUnit.APICoursePageTests" />
+        <item itemvalue="JUnit.APICoursePageTests.testSignOut" />
+        <item itemvalue="JUnit.APICoursePageTests.testInvalidSign" />
+        <item itemvalue="JUnit.APICoursePageTests.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -235,35 +230,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 03m 53s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.22 at 17h 08m 19s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 04m 40s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 11m 38s.xml">
+      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 05m 14s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 12m 23s.xml">
+      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 06m 20s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 17m 31s.xml">
+      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 09m 37s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 25m 50s.xml">
+      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 09m 58s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testInvalidSign - 2019.09.22 at 17h 29m 10s.xml">
+      <configuration name="APICoursePageTests.testInvalidSign" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests_testOPenAPIDocs - 2019.09.21 at 18h 10m 36s.xml">
-      <configuration name="MainPageTests.testOPenAPIDocs" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests - 2019.09.22 at 17h 34m 33s.xml">
+      <configuration name="APICoursePageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests - 2019.09.21 at 18h 11m 36s.xml">
-      <configuration name="MainPageTests" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests_testSignOut - 2019.09.22 at 17h 41m 13s.xml">
+      <configuration name="APICoursePageTests.testSignOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests - 2019.09.21 at 18h 12m 18s.xml">
-      <configuration name="MainPageTests" configurationId="JUnit" />
+    <history-entry file="APICoursePageTests - 2019.09.22 at 17h 42m 40s.xml">
+      <configuration name="APICoursePageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTests - 2019.09.21 at 18h 14m 47s.xml">
-      <configuration name="MainPageTests" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.22 at 17h 48m 23s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -275,7 +270,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -283,8 +278,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -299,6 +294,34 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -309,7 +332,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/support/Web.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -318,56 +361,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BlocksCoursePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="80">
+          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state relative-caret-position="208">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

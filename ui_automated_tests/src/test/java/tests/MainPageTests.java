@@ -1,7 +1,6 @@
 package tests;
 
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -9,7 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import support.Web;
 
-import java.util.concurrent.TimeUnit;
+import java.util.Set;
+
 
 public class MainPageTests {
 
@@ -17,7 +17,8 @@ public class MainPageTests {
 
     @Before
     public void setUp() {
-        navegador = Web.createChrome();
+        navegador = Web.createChrome("http://localhost:3001/");
+        navegador.manage().window().maximize();
 
     }
 
@@ -52,6 +53,63 @@ public class MainPageTests {
         navegador.findElement(By.linkText("@2bittester")).click();
         assertEquals(urlexpected,navegador.getCurrentUrl());
     }
+
+    @Test
+    public void testOPenApiFrameworkCourse() {
+
+        //String  handle = navegador.getWindowHandle();
+        navegador.findElement(By.xpath("//a/img[contains(@src,'/images/buildanapi.png')]")).click();
+        String url = "https://www.ministryoftesting.com/dojo/series/let-s-build-an-api-checking-framework-mark-winteringham";
+
+        Set<String> handles = navegador.getWindowHandles();
+        System.out.println(handles);
+        for (String handle1 : navegador.getWindowHandles()){
+            navegador.switchTo().window(handle1);
+            navegador.getCurrentUrl();
+        }
+        String urlCur = navegador.getCurrentUrl();
+        System.out.println("Expected: " + url +
+                "\nCurrent: " + urlCur);
+        assertEquals(url, urlCur);
+
+    }
+
+    @Test
+    public void testOPenHTTPCourse(){
+
+        navegador.findElement(By.xpath("//a/img[contains(@src,'/images/introhttp.png')]")).click();
+        String url = "https://www.ministryoftesting.com/dojo/series/introduction-to-http";
+
+        Set<String> handles = navegador.getWindowHandles();
+        System.out.println(handles);
+        for (String handle1 : navegador.getWindowHandles()){
+            navegador.switchTo().window(handle1);
+            navegador.getCurrentUrl();
+        }
+        String urlCur = navegador.getCurrentUrl();
+        System.out.println("Expected: " + url +
+                "\nCurrent: " + urlCur);
+        assertEquals(url, urlCur);
+    }
+
+    @Test
+    public void testOPenBlocksCourse(){
+
+        navegador.findElement(By.xpath("//a/img[contains(@src,'/images/bbofti.png')]")).click();
+        String url = "https://www.ministryoftesting.com/dojo/series/the-building-blocks-of-the-internet-mark-winteringham";
+
+        Set<String> handles = navegador.getWindowHandles();
+        System.out.println(handles);
+        for (String handle1 : navegador.getWindowHandles()){
+            navegador.switchTo().window(handle1);
+            navegador.getCurrentUrl();
+        }
+        String urlCur = navegador.getCurrentUrl();
+        System.out.println("Expected: " + url +
+                "\nCurrent: " + urlCur);
+        assertEquals(url, urlCur);
+    }
+
     @After
     public void tearDown() {
         // Fechar o navegador
