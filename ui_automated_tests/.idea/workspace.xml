@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2ef510b-9a28-4170-af0f-e4089f41006f" name="Default Changelist" comment="" />
+    <list default="true" id="e2ef510b-9a28-4170-af0f-e4089f41006f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_tests/PostmanEcho.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/support/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/support/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/support/Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/APIDocsPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/APIDocsPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_automated_tests.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,15 +20,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-112">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/support/Web.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -33,16 +72,24 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\marce\College\TCC\TCC\ui_automated_tests\src\test\java\driver</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/support/Web.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BlocksCoursePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/support/Web.java" />
       </list>
     </option>
   </component>
@@ -53,17 +100,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
     <option name="y" value="183" />
     <option name="width" value="969" />
     <option name="height" value="547" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,6 +145,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_automated_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_automated_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -105,16 +163,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ui_automated_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569189581834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569384034777" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\College\TCC\TCC\ui_automated_tests\src\test\java\driver" />
+      <recent name="C:\Users\marce\College\TCC\TCC\ui_automated_tests\src\test\java\support" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\College\TCC\TCC\ui_automated_tests\src\test\java\driver" />
+      <recent name="C:\Users\marce\College\TCC\TCC\ui_automated_tests\target" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,34 +301,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests_in_ui_automated_tests - 2019.09.22 at 17h 08m 19s.xml">
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 32m 45s.xml">
       <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 11m 38s.xml">
-      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 33m 45s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 12m 23s.xml">
-      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 35m 27s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 17m 31s.xml">
-      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 35m 36s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testLogin - 2019.09.22 at 17h 25m 50s.xml">
-      <configuration name="APICoursePageTests.testLogin" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 35m 45s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testInvalidSign - 2019.09.22 at 17h 29m 10s.xml">
-      <configuration name="APICoursePageTests.testInvalidSign" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 40m 19s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests - 2019.09.22 at 17h 34m 33s.xml">
-      <configuration name="APICoursePageTests" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 54m 16s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests_testSignOut - 2019.09.22 at 17h 41m 13s.xml">
-      <configuration name="APICoursePageTests.testSignOut" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 55m 28s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APICoursePageTests - 2019.09.22 at 17h 42m 40s.xml">
-      <configuration name="APICoursePageTests" configurationId="JUnit" />
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.24 at 23h 57m 42s.xml">
+      <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests_in_ui_automated_tests - 2019.09.22 at 17h 48m 23s.xml">
+    <history-entry file="tests_in_ui_automated_tests - 2019.09.25 at 00h 00m 32s.xml">
       <configuration name="tests in ui_automated_tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -265,32 +336,32 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -322,33 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/Web.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/HTTPCoursePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -369,10 +413,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/APICoursePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/APIDocsPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-112">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/Web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

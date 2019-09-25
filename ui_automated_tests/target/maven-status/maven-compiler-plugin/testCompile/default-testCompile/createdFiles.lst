@@ -1,0 +1,6 @@
+tests\APIDocsPageTests.class
+support\Web.class
+tests\APICoursePageTests.class
+tests\MainPageTests.class
+tests\BlocksCoursePageTests.class
+tests\HTTPCoursePageTests.class
