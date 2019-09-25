@@ -27,7 +27,7 @@ public class Web {
 
         // To OPen browser remove options from parameter
        // System.setProperty("webdriver.chrome.driver", "D:\\workspace-slave\\workspace\\AutomaticTest\\ui_automated_tests\\src\\test\\java\\driver\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe --whitelist-ip %*");
         WebDriver navegador = new ChromeDriver(options);
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
