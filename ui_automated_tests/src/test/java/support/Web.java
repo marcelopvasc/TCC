@@ -18,6 +18,8 @@ public class Web {
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.addArguments("--proxy-server='105.112.150.10'");
+		options.addArguments("--proxy-bypass-list=*");
         //options.setExperimentalOption("--disable-dev-shm-usage");
 		//options.addArguments("--headless");
         //options.setExperimentalOption("useAutomationExtension", false);
