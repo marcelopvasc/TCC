@@ -13,9 +13,10 @@ public class Web {
         //Headless
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
-        options.setExperimentalOption("--disable-dev-shm-usage", false);
-        options.addArguments("headless");
-        options.addArguments("window-size=1200x600");
+        //options.setExperimentalOption("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        options.setExperimentalOption("useAutomationExtension", false);
+        //options.addArguments("window-size=1200x600");
         
 
         // To OPen browser remove options from parameter
