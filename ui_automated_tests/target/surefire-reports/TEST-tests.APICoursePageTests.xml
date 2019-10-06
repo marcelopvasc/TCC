@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="tests.APICoursePageTests" time="60.021" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="tests.APICoursePageTests" time="444.122" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
     <property name="java.vm.version" value="25.211-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Program Files (x86)\Jenkins\workspace\Jenkins_Newman_Test"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Program Files (x86)\Jenkins\workspace\2019_TCC_PROJECT"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="tests/**"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\Jenkins_Newman_Test"/>
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\2019_TCC_PROJECT"/>
     <property name="java.runtime.version" value="1.8.0_211-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
@@ -64,11 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="tests.APICoursePageTests" name="testSpecialCharacters" time="9.716"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidSign" time="8.29"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidUser" time="8.047"/>
-  <testcase classname="tests.APICoursePageTests" name="testValidSign" time="7.873"/>
-  <testcase classname="tests.APICoursePageTests" name="test1SignOut" time="10.618"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidPassword" time="7.989"/>
-  <testcase classname="tests.APICoursePageTests" name="testBlankFields" time="7.488"/>
+  <testcase classname="tests.APICoursePageTests" name="testSpecialCharacters" time="189.886"/>
+  <testcase classname="tests.APICoursePageTests" name="test1SignOut" time="254.236"/>
 </testsuite>

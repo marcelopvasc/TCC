@@ -16,7 +16,7 @@ public class Web {
         options.addArguments("window-size=1200x600");
 
         // To OPen browser remove options from parameter
-        System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\test\\java\\driver\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver(options);
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
