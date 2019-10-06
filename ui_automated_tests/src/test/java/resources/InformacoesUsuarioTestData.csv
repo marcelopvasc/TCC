@@ -1,0 +1,6 @@
+testLogin,user,password,alertType,expectedMessage,Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms)
+"",marcelopv,Marcelo3641*,flash_notice,Signed in successfully.,2192.0,2192.0,2192.0,2192.0,2192.0
+"",xxxx,Xxxx,flash_alert,Invalid Login or password.,1401.0,1401.0,1401.0,1401.0,1401.0
+"",,,flash_alert,Invalid Login or password.,1357.0,1357.0,1357.0,1357.0,1357.0
+"",_______,/***//,flash_alert,Invalid Login or password.,1312.0,1312.0,1312.0,1312.0,1312.0
+"",marcelo.pv,,flash_alert,Invalid Login or password.,1141.0,1141.0,1141.0,1141.0,1141.0

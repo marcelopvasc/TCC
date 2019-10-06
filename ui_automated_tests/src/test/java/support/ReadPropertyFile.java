@@ -9,7 +9,7 @@ public class ReadPropertyFile {
 
 
 
-    public static String readConfigFile(String property){
+    public static String getResource(String property){
 
     Properties prop=new Properties();
     FileInputStream ip;

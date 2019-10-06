@@ -16,7 +16,7 @@ public class Web extends ReadPropertyFile{
         options.addArguments("window-size=1200x600");
 
         // To OPen browser remove options from parameter
-        System.setProperty("webdriver.chrome.driver", readConfigFile("webdriverpath"));
+        System.setProperty("webdriver.chrome.driver", getResource("webdriverpath"));
         //"src\\test\\java\\driver\\chromedriver.exe"
 
         WebDriver navegador = new ChromeDriver(options);

@@ -1,6 +1,7 @@
 tests\APIDocsPageTests.class
 support\Web.class
+support\ReadPropertyFile.class
 tests\APICoursePageTests.class
-tests\MainPageTests.class
 tests\BlocksCoursePageTests.class
 tests\HTTPCoursePageTests.class
+tests\MainPageTests.class
