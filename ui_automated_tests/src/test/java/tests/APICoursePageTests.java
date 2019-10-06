@@ -18,7 +18,7 @@ public class APICoursePageTests {
         navegador = Web.createChrome("https://www.ministryoftesting.com/dojo/series/let-s-build-an-api-checking-framework-mark-winteringham");
     }
 
-    @Test
+    //@Test
     public void testValidSign(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -30,7 +30,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void testInvalidSign(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -42,7 +42,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void testBlankFields(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -54,7 +54,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void testInvalidUser(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -66,7 +66,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void testInvalidPassword(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -78,7 +78,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void testSpecialCharacters(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -90,7 +90,7 @@ public class APICoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void test1SignOut(){
 
         navegador.findElement(By.linkText("Sign In")).click();

@@ -17,7 +17,7 @@ public class HTTPCoursePageTests {
     public void setUp() {
         navegador = Web.createChrome("https://www.ministryoftesting.com/dojo/series/introduction-to-http");
     }
-
+/*
     @Test
     public void testValidSign(){
 
@@ -77,8 +77,8 @@ public class HTTPCoursePageTests {
         String txt = "Invalid Login or password.";
         assertEquals(txt,successNotice.getText());
     }
-
-    @Test
+*/
+    //@Test
     public void testSpecialCharacters(){
 
         navegador.findElement(By.linkText("Sign In")).click();
@@ -90,7 +90,7 @@ public class HTTPCoursePageTests {
         assertEquals(txt,successNotice.getText());
     }
 
-    @Test
+    //@Test
     public void test1SignOut(){
 
         navegador.findElement(By.linkText("Sign In")).click();

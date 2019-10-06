@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Web {
+public class Web extends ReadPropertyFile{
 
     public static WebDriver createChrome(String url) {
 
@@ -14,9 +14,10 @@ public class Web {
         ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
         options.addArguments("window-size=1200x600");
-        
+
         // To OPen browser remove options from parameter
-        System.setProperty("webdriver.chrome.driver", "src\\test\\java\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", readConfigFile("webdriverpath"));
+        //"src\\test\\java\\driver\\chromedriver.exe"
 
         WebDriver navegador = new ChromeDriver(options);
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

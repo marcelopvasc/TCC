@@ -18,6 +18,7 @@ public class APIDocsPageTests {
         navegador = Web.createChrome("http://localhost:3001/apidoc/index.html");
     }
 
+    /*
     @Test
     public void testFilterGet(){
 
@@ -121,7 +122,7 @@ public class APIDocsPageTests {
         String urlSection = "http://localhost:3001/apidoc/index.html#api-Ping-Ping";
         assertEquals(urlSection, navegador.getCurrentUrl());
     }
-
+*/
     @After
     public void tearDown() {
         // Fechar o navegador

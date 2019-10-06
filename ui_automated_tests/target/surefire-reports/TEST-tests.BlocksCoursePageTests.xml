@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="tests.APICoursePageTests" time="68.553" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="tests.BlocksCoursePageTests" time="60.027" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -64,11 +64,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="tests.APICoursePageTests" name="testSpecialCharacters" time="10.316"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidSign" time="10.053"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidUser" time="12.543"/>
-  <testcase classname="tests.APICoursePageTests" name="testValidSign" time="9.931"/>
-  <testcase classname="tests.APICoursePageTests" name="test1SignOut" time="10.695"/>
-  <testcase classname="tests.APICoursePageTests" name="testInvalidPassword" time="7.602"/>
-  <testcase classname="tests.APICoursePageTests" name="testBlankFields" time="7.413"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testSpecialCharacters" time="7.886"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testInvalidSign" time="8.357"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testInvalidUser" time="8.254"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testValidSign" time="8.942"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="test1SignOut" time="10.944"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testInvalidPassword" time="7.416"/>
+  <testcase classname="tests.BlocksCoursePageTests" name="testBlankFields" time="8.228"/>
 </testsuite>
