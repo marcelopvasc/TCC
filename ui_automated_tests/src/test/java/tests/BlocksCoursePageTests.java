@@ -17,7 +17,7 @@ public class BlocksCoursePageTests {
     public void setUp() {
         navegador = Web.createChrome("https://www.ministryoftesting.com/dojo/series/the-building-blocks-of-the-internet-mark-winteringham");
     }
-/*
+
     @Test
     public void testValidSign(){
 
@@ -77,7 +77,7 @@ public class BlocksCoursePageTests {
         String txt = "Invalid Login or password.";
         assertEquals(txt,successNotice.getText());
     }
-*/
+
     //@Test
     public void testSpecialCharacters(){
 
