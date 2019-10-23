@@ -1,6 +1,8 @@
-testLogin,user,password,alertType,expectedMessage,Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms)
-"",marcelopv,Marcelo3641*,flash_notice,Signed in successfully.,2192.0,2192.0,2192.0,2192.0,2192.0
-"",xxxx,Xxxx,flash_alert,Invalid Login or password.,1401.0,1401.0,1401.0,1401.0,1401.0
-"",,,flash_alert,Invalid Login or password.,1357.0,1357.0,1357.0,1357.0,1357.0
-"",_______,/***//,flash_alert,Invalid Login or password.,1312.0,1312.0,1312.0,1312.0,1312.0
-"",marcelo.pv,,flash_alert,Invalid Login or password.,1141.0,1141.0,1141.0,1141.0,1141.0
+testLogin,user,password,alertType,expectedMessage,Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms)
+"",marcelopv,Marcelo3641*,flash_notice,Signed in successfully.,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0,18232.0
+"",xxxx,Xxxx,flash_alert,Invalid Login or password.,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0,1582.0
+"",,xxxxxxx,flash_alert,Invalid Login or password.,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0,7273.0
+"",,,flash_alert,Invalid Login or password.,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0,1196.0
+"",Teste,***%,flash_alert,Invalid Login or password.,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0,1958.0
+"",_______,Marcelo3641*,flash_alert,Invalid Login or password.,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0,1232.0
+"",marcelo.pv,,flash_alert,Invalid Login or password.,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0,2294.0

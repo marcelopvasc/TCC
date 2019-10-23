@@ -35,7 +35,6 @@ public class APICoursePageTests {
         WebElement successNotice = navegador.findElement(By.id(alertType));
         assertEquals(expectedMessage,successNotice.getText());
 
-
     }
 
 

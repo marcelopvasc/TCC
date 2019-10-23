@@ -79,11 +79,23 @@ public class HTTPCoursePageTests {
     }
 
     @Test
-    public void testSpecialCharacters(){
+    public void testSpecialCharactersUser(){
 
         navegador.findElement(By.linkText("Sign In")).click();
         navegador.findElement(By.id("user_login")).sendKeys("_______");
-        navegador.findElement(By.id("user_password")).sendKeys("/***//");
+        navegador.findElement(By.id("user_password")).sendKeys("Marcelo3641*");
+        navegador.findElement(By.name("commit")).click();
+        WebElement successNotice = navegador.findElement(By.id("flash_alert"));
+        String txt = "Invalid Login or password.";
+        assertEquals(txt,successNotice.getText());
+    }
+
+    @Test
+    public void testSpecialCharactersPassowrd(){
+
+        navegador.findElement(By.linkText("Sign In")).click();
+        navegador.findElement(By.id("user_login")).sendKeys("marcelopv");
+        navegador.findElement(By.id("user_password")).sendKeys("_______*&");
         navegador.findElement(By.name("commit")).click();
         WebElement successNotice = navegador.findElement(By.id("flash_alert"));
         String txt = "Invalid Login or password.";
